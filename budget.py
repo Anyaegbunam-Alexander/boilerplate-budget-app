@@ -104,5 +104,3 @@ def create_spend_chart(listofobjects):
     joined_chart = ''.join(chart)
 
     return joined_chart
-
-
