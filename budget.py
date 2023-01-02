@@ -6,7 +6,7 @@ class Category():
         self.ledger = []
 
     def __str__(self) -> str:
-        line = f'{self.category}'.center(30, '*') + '\n'
+        line = f'{self.category:*^30}' + '\n'
         ledger = self.view_ledger()
         total = 0
         for i in ledger:
